@@ -1,0 +1,83 @@
+html{
+        margin: 0;
+        padding: 0;
+       
+}
+body{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        background-color: #DDDDDD!important;
+}
+.pg-container{
+        width: 70%;
+}
+
+.green{
+     color: #006633;
+}
+
+.jumbotron{
+        background-color: #006633 !important;
+}
+
+.jumbotron h1{
+        color: #FFCC33 !important;
+        font-weight: 400;
+}
+
+.admissions{
+        border: 5px solid #006633;
+        color: #FFCC33;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        transition: transform ease 0.5s, box-shadow ease 0.5s;
+        height: 60px;
+
+}
+
+.admissions {
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+    }
+    
+    .admissions h1 {
+        display: inline-block;
+        position: absolute;
+        right: -100%;
+        animation: moveText 5s linear infinite;
+    }
+    /* to make h1 move accross screen */
+    @keyframes moveText {
+        from {
+            right: -100%;
+        }
+        to {
+            right: 100%;
+        }
+    }
+
+    li{
+        font-weight: 400;
+    }
+
+      .addr{
+        font-size: x-small;
+        font-weight: 700;
+      }
+
+      .container footer{
+        background-color: black;
+        margin: 0 -15px;
+        padding: 0 2%;
+        margin-top: 5%;
+      }
+
+      .blog-post-title{
+        color:#006633;
+        font-weight: 700;
+        font-stretch: expanded;
+      }
+
+      

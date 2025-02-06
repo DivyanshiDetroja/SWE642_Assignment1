@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CS Dept From</title>
+        <!-- link to external stylesheet -->
+        <link rel="stylesheet" href="p-2_form_styles.css">
+        <!-- link to bootstrap css cdn -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+        <header class="blog-header py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+                  <div class="col-8 pt-1 ">
+                    <a class="text-muted" href="#"><img src="gmu_cec_logo.png" alt="gmu_cec_logo" height="100" width="auto"></a>
+                  </div>
+                </div>
+              </header>
+              <h1>CS Department Survey Form</h1>
+<!-- bootstrap form -->
+        <form action="p-2_dept.html" method="get" autocomplete="on">
+                <div class="form-row">
+                        <div class="col-sm-4 my-1">
+                                <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">@ <span class="star">*</span></div>
+                                  </div>
+                                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username" required>
+                                </div>
+                              </div>
+                              <!-- used bootstrap grid for column dimensions -->
+                              <div class="col-sm-4 my-1">
+                                <label class="sr-only" for="inlineFormInputGroupEmail">Email</label>
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">Email: <span class="star">*</span></div>
+                                  </div>
+                                  <input type="email" class="form-control" id="inlineFormInputGroupEmail" placeholder="abc@xym.com" required>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 my-1">
+                                <label class="sr-only" for="inlineFormInputGroupContact">Contact</label>
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">Mobile: <span class="star">*</span></div>
+                                  </div>
+                                  <input type="tel" class="form-control" id="inlineFormInputGroupContact" placeholder="XXX-XXX-XXXX" required>
+                                </div>
+                              </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inputAddress">Street Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-row">
+                <div class="form-group col-md-4">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="City/Town/County">
+                </div>
+                
+                  <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <input type="text" class="form-control" id="inputState">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputZip">Zip</label>
+                    <input type="number" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <label for="inputUrl">Url</label>
+                          <input type="url" class="form-control" id="inputUrl" placeholder="www.ijf.com">
+                        </div>
+                        <div class="form-group col-md-4">
+                                <label for="inputDate">Date of Survey <span class="star">*</span></label>
+                                <input type="datetime" class="form-control" id="inputDate" required>
+                              </div>
+
+                        </div>
+
+                        <label for="">What you liked most about the campus?</label>
+                        <form class="was-validated">
+                          <!-- checkboxes -->
+                                <div class="d-flex flex-wrap justify-content-between">
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input" id="customControlValidationCheck1" >
+                                  <label class="custom-control-label" for="customControlValidationCheck1">Student</label>
+                                  </div>
+                                  <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customControlValidationCheck2" >
+                                        <label class="custom-control-label" for="customControlValidationCheck2">Location</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customControlValidationCheck3" >
+                                                <label class="custom-control-label" for="customControlValidationCheck3">Campus</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customControlValidationCheck4" >
+                                                <label class="custom-control-label" for="customControlValidationCheck4">Atmosphere</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customControlValidationCheck5" >
+                                                <label class="custom-control-label" for="customControlValidationCheck5">Dorm Rooms</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-3">
+                                                <input type="checkbox" class="custom-control-input" id="customControlValidationCheck6" >
+                                                <label class="custom-control-label" for="customControlValidationCheck6">Sports</label>
+                                  </div>
+                                </div>
+                        </div>
+
+
+                        <label for="">How did you became interested in the university?</label>
+                        <div  class="d-flex flex-wrap justify-content-between">
+                        <div class="custom-control custom-radio">
+                          <!-- radio buttons -->
+                                <input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked" >
+                                <label class="custom-control-label" for="customControlValidation1">Friends</label>
+                              </div>
+                              <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" >
+                                <label class="custom-control-label" for="customControlValidation2">Television</label>
+                                <div class="invalid-feedback">More example invalid feedback text</div>
+                              </div>
+                              <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" >
+                                <label class="custom-control-label" for="customControlValidation3">Internet</label>
+                                <div class="invalid-feedback">More example invalid feedback text</div>
+                              </div>
+                              <div class="custom-control custom-radio mb-3">
+                                <input type="radio" class="custom-control-input" id="customControlValidation4" name="radio-stacked" >
+                                <label class="custom-control-label" for="customControlValidation4">Other</label>
+                                <div class="invalid-feedback">More example invalid feedback text</div>
+                              </div>
+                        </div>
+
+                        <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Additional Comments</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+<div class="d-flex flex-wrap justify-content-between grad-month">
+        <div class="col-md-4">
+                              <label for="exampleDataList" class="form-label">Month of High School Graduation <span class="star">*</span></label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..." required>
+<!-- datalist dropwdown for months -->
+<datalist id="datalistOptions">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+</datalist>
+</div>
+<div class="form-group col-md-3">
+        <label for="inputYear">Year: <span class="star">*</span></label>
+        <input type="number" class="form-control" id="inputYear" placeholder="XXXX">
+      </div>
+      </div>
+      
+
+
+
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </form>
+              <script>
+                // js to ensure on page load, username input is highlighted
+                document.addEventListener("DOMContentLoaded", function () {
+                    document.getElementById("inlineFormInputGroupUsername").focus(); // Auto-focus on the input field
+                });
+            </script>
+<!-- bootstrap js cdn connection -->
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

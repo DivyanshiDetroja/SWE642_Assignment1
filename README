@@ -1,0 +1,41 @@
+---
+
+Divyanshi Manojkumar Detroja
+G01522554
+SWE 642 001- Spring 2025
+
+---
+
+DOCUMENTATION:
+
+FILES:
+----My Website----
+my_website.html : html file containing code for my website
+my_website_styles.css : external css stylessheet for my website
+my_website.js : javascript file containing external widget logic for my website
+----CS Dept. Website----
+p-2_dept.html : html file containing code for CS Dept Home Page
+p-2_dept_styles.css : external stylesheet for CS Dept Homepage
+----CD Dept. Survey Form----
+p-2_form.html : html file containing form for Dept. Survey
+p-2_form_styles.css : external css stylesheet for Dept. Survey Form
+
+Others : images and SVGs
+
+EXTERNAL ELEMENTS AND SOURCES:
+
+----My Website---
+
+Google Fonts: https://fonts.google.com/
+
+Flaticons: https://www.flaticon.com/free-icon/bollywood_3543359?term=bollywood&page=1&position=51&origin=search&related_id=3543359
+
+Technology Badges: https://shields.io/badges
+
+Black Rings Design (Cover Page): https://codepen.io/AdamDipinto/pen/pooMmro
+
+Colorful Carousel with smooth Animations (Courses Section): https://codepen.io/RaduBratan/pen/dyGEzay
+
+----CS Dept. Page----
+
+Bootstrap Template Source: https://getbootstrap.com/docs/4.0/examples/blog/

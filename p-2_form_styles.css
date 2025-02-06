@@ -1,0 +1,41 @@
+body{
+        background-color: #DDDDDD;
+}
+
+form{
+        width: 70%;
+        padding: 3%;
+        margin: 0;
+        justify-self: center;
+        background-color: white;
+        
+}
+
+header{
+        width: 70%;
+        justify-self: center;
+        background-color: #006633;
+}
+
+  .grad-month div{
+        padding:0;
+  }
+
+  h1{
+        color:#006633 !important;
+        font-weight: 700!important;
+        margin: 2% 0!important;
+        justify-self: center;
+      }
+
+.star{
+        color: red;
+        font-weight: 500;
+}
+
+/* blue border around selected/active form input */
+.form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    }
+
